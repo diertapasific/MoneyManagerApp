@@ -35,7 +35,6 @@
             android:text="Login"
             android:textColor="@color/black"
             android:textSize="30dp"
-
             android:textStyle="bold" />
 
         <TextView
