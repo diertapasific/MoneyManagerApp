@@ -4,88 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.ActivityLogin"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".activities.ActivityLogin">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginHorizontal="30dp">
+        android:layout_marginHorizontal="30dp"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/money_manager_logo"/>
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/money_manager_logo" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Proceed with your"
             android:layout_marginTop="50dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:text="Proceed with your"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
             android:layout_marginTop="5dp"
+            android:text="Login"
+            android:textColor="@color/black"
             android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
             android:layout_marginTop="80dp"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Email"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <EditText
             android:id="@+id/etEmailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:drawableRight="@drawable/email" />
+            android:drawableRight="@drawable/email"
+            android:inputType="textPersonName" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Password"
             android:layout_marginTop="25dp"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Password"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <EditText
             android:id="@+id/etPasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:drawableRight="@drawable/password" />
+            android:drawableRight="@drawable/password"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:backgroundTint="#1da1cf"
             android:layout_marginTop="30dp"
+            android:backgroundTint="#1da1cf"
             android:text="Login"
-            android:textStyle="bold"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/btnToRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
             android:layout_marginTop="10dp"
-            android:textAlignment="center"/>
+            android:text="Don't have an account?"
+            android:textAlignment="center" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>
