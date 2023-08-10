@@ -32,7 +32,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         contentValues.put("password", password);
 
         long result = UserDataBase.insert("users",null, contentValues);
-
         if(result == 1){
             return false;
         } else{
